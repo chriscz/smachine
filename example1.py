@@ -31,7 +31,7 @@ class NeighbourhoodMachine(Machine):
 
 machine = NeighbourhoodMachine() 
 
-print "Run machine (initial == default)"
+print "Run machine (initial == default i.e. 'bird')"
 machine.run_no_input()
 print
 

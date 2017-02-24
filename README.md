@@ -36,21 +36,21 @@ class NeighbourhoodMachine(Machine):
 
 machine = NeighbourhoodMachine() 
 
-print "Run machine (initial == default)"
+print "Run machine (initial == default i.e. 'bird')"
 machine.run_no_input()
 print
 
 print "Run machine (initial == 'cat')"
-machine.run_no_input()
+machine.run_no_input(initial='cat')
 print
 
 print "Run machine (initial == 'dog')"
-machine.run_no_input()
+machine.run_no_input(initial='dog')
 ```
 
 Running it from the commandline yields:
 ```
-Run machine (initial == default)
+Run machine (initial == default i.e. 'bird')
 bird pecks seeds
 dog catches bird
 
